@@ -1,0 +1,14 @@
+.status {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
