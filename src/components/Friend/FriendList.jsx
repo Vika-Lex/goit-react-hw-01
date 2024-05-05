@@ -8,7 +8,7 @@ const FriendList = props => {
     <div className="friend__container">
       <ul className={style.list}>
         {friends.map(({ name, id, isOnline, avatar }) => (
-          <li className={style.card}>
+          <li key={id} className={style.card}>
             <FriendItem key={id} name={name} isOnline={isOnline} avatar={avatar} />
           </li>
         ))}
