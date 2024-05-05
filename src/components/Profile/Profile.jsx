@@ -1,4 +1,3 @@
-import FriendList from '../Friend/FriendList.jsx';
 import style from './Profile.module.css';
 
 const Profile = props => {
